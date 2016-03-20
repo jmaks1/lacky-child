@@ -1,0 +1,49 @@
+{
+    "root": {
+        "src": "./src",
+        "dist": "./public",
+        "watch": "./src",
+        "baseDir": "./"
+    },
+    "tasks": {
+        "javascripts": {
+            "src": "javascripts",
+            "dist": "javascripts",
+            "watch": "javascripts/**/*.js",
+            "entries": {
+                "main": "./main.js",
+                "home": "./home.js",
+                "product": "./product.js",
+                "catalog": "./catalog.js",
+                "career": "./career.js"
+            },
+            "publicPath": "http://storage.gloria-jeans.ru/prod/"
+        },
+        "stylesheets": {
+            "src": "stylesheets/*.scss",
+            "dist": "stylesheets",
+            "watch": "stylesheets/**/*.*"
+        },
+        "icons": {
+            "src": "font-svg/*.*",
+            "dist": "fonts",
+            "watch": "font-svg/*.*",
+            "template": "src/font-svg.template",
+            "core": "src/stylesheets/main/"
+        },
+        "spriteSvg": {
+            "src": "sprite-svg/*.*",
+            "dist": "images",
+            "watch": "sprite-svg/*.*",
+            "template": "src/sprite-svg.template",
+            "core": "src/stylesheets/core/"
+        },
+        "spritePng": {
+            "src": "sprite-png/*.*",
+            "dist": "images",
+            "watch": "sprite-png/*.*",
+            "template": "src/sprite-png.template",
+            "core": "src/stylesheets/core/"
+        }
+    }
+}

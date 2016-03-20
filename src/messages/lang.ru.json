@@ -1,0 +1,20 @@
+{
+  "Guest": "Гость",
+  "Success": "Успешно",
+  "Prove that you're not a robot": "Докажите что вы не робот",
+  "Fill in the required fields": "Заполните обязательны поля",
+  "The password should be at least 6 characters": "Пароль должен быть не меньше 6 символов",
+  "Passwords do not match": "Пароли не совпадают",
+  "Hello World": "Привет мир",
+  "Not specified": "Не указана",
+  "Choose your city": "Выберите свой город",
+  "Cancel": "Отмена",
+  "Accept": "Принять",
+  "Send email": "Написать письмо",
+  "Send": "Отправить",
+  "Sending": "Отправка",
+  "Size chart": "Таблица размеров",
+  "Enter your password": "Введите пароль",
+  "Enter your Email": "Введите Email",
+  "On the specified e-mail was sent a letter with further instructions": "На указаный e-mail было выслано письмо с дальнейшими инструкциями"
+}

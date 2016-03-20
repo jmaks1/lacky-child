@@ -1,0 +1,64 @@
+$fonts: (
+    openSans: ('Open Sans', sans-serif),
+    verdana: (Verdana, Geneva, sans-serif),
+    centuryGothic: ('CenturyGothic', sans-serif),
+);
+
+$colors: (
+    black: #000000,
+    white: #ffffff
+);
+
+$z-layers: (
+    bottomless-pit: -9999,
+    default: 1,
+    aboveSlider: 120,
+    aboveHeader: 140,
+);
+
+$height: (
+
+);
+
+$width: (
+
+);
+
+// ie class
+$ieSprite: '.ie8' !default;
+$spriteSvg: map-get($icons, sprite) !default;
+
+$baseFontSize: 12px !default;
+$baseLineHeight: 20px !default;
+
+/*
+* breakpoints
+*/
+$xs-range: (0px, 479px);
+$sm-range: (480px, 767px);
+$md-range: (768px, 959px);
+$lg-range: (960px, 1279px);
+$xl-range: (1280px, 1439px);
+$screen: "only screen";
+
+/*
+* include bootstrap variables
+*/
+$font-size-h1: 24px;
+$font-size-h2: 20px;
+$font-size-h3: 18px;
+$grid-gutter-width: 20px;
+$border-radius-large: 0px;
+$border-radius-base: 0px;
+$input-height-base: 30px;
+
+$screen-xs: 480px;
+$screen-sm: 768px;
+$screen-md: 960px;
+$screen-lg: 1280px;
+
+$container-tablet: $screen-sm - 40;
+$container-desktop: $screen-md - 40;
+$container-large-desktop: $screen-lg - 20;
+
+@import "../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/variables";

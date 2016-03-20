@@ -1,0 +1,26 @@
+{
+  "name": "frontend",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "jmaks"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/jmaks1/frontend",
+  "moduleType": [
+    "es6"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "^3.3.6",
+    "owl.carousel": "^2.0.0-beta.3",
+    "jquery-mask-plugin": "^1.13.8",
+    "jquery": "^2.2.1"
+  }
+}
