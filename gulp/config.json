@@ -11,11 +11,7 @@
             "dist": "javascripts",
             "watch": "javascripts/**/*.js",
             "entries": {
-                "main": "./main.js",
-                "home": "./home.js",
-                "product": "./product.js",
-                "catalog": "./catalog.js",
-                "career": "./career.js"
+                "main": "./main.js"
             },
             "publicPath": "http://storage.gloria-jeans.ru/prod/"
         },

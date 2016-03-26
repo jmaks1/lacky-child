@@ -47,7 +47,7 @@ module.exports = Object.keys(languages).map(function (language) {
             extensions: ['', '.js']
         },
         resolveLoader: {
-            moduleDirectories: ['node_modules'],
+            moduleDirectories: ['node_modules', 'src/javascripts/assets'],
             moduleTemplates: ['*-loader', '*'],
             extensions: ['', '.js']
         },
@@ -56,9 +56,9 @@ module.exports = Object.keys(languages).map(function (language) {
                 {
                     test: /\.js$/,
                     include: [
-                        path.resolve(__dirname, "src/javascropts"),
+                        path.resolve(__dirname, "src/javascripts")
                     ],
-                    exclude: /node_modules/,
+                    exclude: /(node_modules|bower_components)/,
                     loader: 'babel-loader',
                     query: {
                         presets: ['es2015']
