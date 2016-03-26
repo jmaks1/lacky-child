@@ -23,7 +23,6 @@ module.exports = function(runTimestamp) {
         for (var i = 0; i < webpackConfig.length; i++) {
             // set entry points and base dir [context]
             myConfig[i] = Object.create(webpackConfig[i]);
-            //myConfig[i].context = taskUrl('javascripts', 'src');
             myConfig[i].entry = config.tasks.javascripts.entries;
 
             //console.log(taskUrl('javascripts', 'src'));
