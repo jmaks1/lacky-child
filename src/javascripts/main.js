@@ -1,6 +1,9 @@
+import "owl.carousel";
+import LuckyChild from './assets/LuckyChild';
 
-var LC = {};
+let LC = new LuckyChild(0, 'Test');
 
+LC.test();
 console.log(1);
 
 module.exports = LC;
