@@ -1,11 +1,13 @@
 $fonts: (
-    openSans: ('Open Sans', sans-serif),
     verdana: (Verdana, Geneva, sans-serif),
-    centuryGothic: ('CenturyGothic', sans-serif),
+    arial: (Arial, Helvetica, sans-serif),
 );
 
 $colors: (
     black: #000000,
+    gray: #5f637a,
+    pink: #e9168d,
+    blue: #38c5f1,
     white: #ffffff
 );
 
@@ -17,7 +19,10 @@ $z-layers: (
 );
 
 $height: (
-
+    btn: 50px,
+    input: 40px,
+    video: 170px,
+    advIco: 65px,
 );
 
 $width: (

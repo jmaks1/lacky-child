@@ -1,0 +1,41 @@
+.lc-adv {
+  @include clearfix;
+  .lc-adv__item {
+    float: left;
+    width: 20%;
+    text-align: center;
+    .lc-adv__wrap {
+      position: relative;
+      height: height(advIco);
+      margin-bottom: 30px;
+    }
+    .lc-adv__icon {
+      @include center;
+      &.lc-adv__icon_1 {
+        @include sprite($s-ico1);
+      }
+      &.lc-adv__icon_2 {
+        @include sprite($s-ico2);
+      }
+      &.lc-adv__icon_3 {
+        @include sprite($s-ico3);
+      }
+      &.lc-adv__icon_4 {
+        @include sprite($s-ico4);
+      }
+      &.lc-adv__icon_5 {
+        @include sprite($s-ico5);
+      }
+    }
+
+    .lc-adv__title {
+      font-size: 15px;
+      margin: 10px 5px;
+      &.lc-adv__title_big {
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+}

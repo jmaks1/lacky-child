@@ -3,3 +3,57 @@
 */
 @import "../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_normalize";
 @import "../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_print";
+
+// Core CSS
+
+* {
+  @include box-sizing(border-box);
+}
+*:before,
+*:after {
+  @include box-sizing(border-box);
+}
+
+html {
+  font-size: 10px;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+body {
+  font-family: font(arial);
+  font-size: $baseFontSize;
+  line-height: $baseLineHeight;
+  color: color(gray);
+  @include gradient-horizontal-three-colors(#c0cfda, #f2f3f3, 50%, #c0cfda);
+}
+
+.lc-content {
+  padding: 0 20px;
+  background-color: color(white);
+  border-radius: 3px;
+
+  .lc-content__line {
+    height: 17px;
+    margin: 0 -20px;
+    &.lc-content__line_top {
+      @include border-top-radius(3px);
+      background-image: url(../images/bg__top-reg.jpg);
+    }
+    &.lc-content__line_bot {
+      background-image: url(../images/bg__bottom-reg.jpg);
+      @include border-bottom-radius(3px);
+    }
+  }
+}
+
+// Reset fonts for relevant elements
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+@import "../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_grid";

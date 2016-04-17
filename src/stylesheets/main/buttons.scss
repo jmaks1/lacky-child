@@ -1,0 +1,21 @@
+
+
+.btn {
+  @include btn(
+    $height: height(btn),
+    $c-bg: transparent,
+    $c-text: color(white)
+  );
+  &.btn_pink {
+    text-transform: uppercase;
+    @include gradient-vertical-three-colors(#f11eb5, #e9168d, 5%, #c80874);
+    border: 2px solid color(white);
+  }
+
+  &:active,
+  &.active {
+    outline: 0;
+    @include box-shadow(inset 0 3px 5px rgba(0,0,0,.125));
+  }
+}
+

@@ -18,17 +18,6 @@
   @return map-get($newIcon, $attr);
 }
 
-@function icon-attr($icon) {
-  $attr: (
-          width: sprite-attr($icon, width),
-          height: sprite-attr($icon, height),
-          x: sprite-attr($icon, backgroundX),
-          y: sprite-attr($icon, backgroundY)
-  );
-
-  @return $attr;
-}
-
 // We use these functions to get the ranges for the media queries variables.
 @function lower-bound($range) {
   @if length($range) <= 0 {
@@ -44,7 +33,10 @@
   @return nth($range, 2);
 }
 
-// Simple functions for pick from the sass map
+/**
+ * Simple functions for pick from the sass map
+ */
+
 // fonts
 @function font($key) {
   @if map-has-key($fonts, $key) {
