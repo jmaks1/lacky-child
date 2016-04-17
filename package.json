@@ -34,6 +34,7 @@
     "gulp-svg-sprite": "^1.2.19",
     "gulp-svgmin": "^1.2.2",
     "gulp-util": "^3.0.7",
+    "gulp-watch": "^4.3.5",
     "gulp.spritesmith": "^6.2.0",
     "i18n-webpack-plugin": "^0.2.7",
     "lodash": "^4.6.1",
